@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Kari Grocery | Grocery Delivery and Ordering App</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Kari Grocery | Grocery Delivery and Ordering App">
+	<meta name="Author" content="Gary Global Solutions">
+	<meta name="copyright" content="copyright 2020 Kari Grocery">
+	<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700">
+	<link type="text/css" rel="stylesheet" href="assets/css/main.css">
+	<link rel="shortcut icon" href="assets/images/favicon.jpg">
+	<style>
+	 #features .features-list ul li .title, #features .features-list ul li .section-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}</style>
+</head>
+
+<!-- Don't Forget to add the demo name as class -->
+
+<body class="solid-background-demo" data-offset="500" data-spy="scroll" data-target="#navbar">
+	<!-- =============== Header =============== -->
+	<header id="header">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+			<div class="mask"></div>
+			<div class="container">
+				<!-- Brand --><a class="navbar-brand logo  mb-0 h1" href="index.html">Kari</a>
+				<button class="navbar-toggler" data-target="#navbar-links" data-toggle="collapse" type="button" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+				<div class="collapse navbar-collapse " id="navbar-links">
+					<!-- Nav Links -->
+					<ul class="navbar-nav nav nav-pills mr-auto">
+						<li class="nav-item"><a class="nav-link" href="#intro"><span>Home</span></a></li>
+						<li class="nav-item"><a class="nav-link" href="#about"><span>about</span></a></li>
+						<li class="nav-item"><a class="nav-link" href="#screenshots"><span>screenshots</span></a></li>
+						
+						<li class="nav-item"><a class="nav-link" href="#fqa"><span>FQA</span></a></li>
+						<li class="nav-item"><a class="nav-link" href="#contact"><span>contact</span></a></li>
+					</ul>
+					<!-- / Nav Links -->
+					<!-- Download Links -->
+					<ul class="nav navbar-nav download-btns">
+						<li class="nav-item mr-2">
+							<a class="nav-link" href="#!"> <i class="fab fa-apple"></i></a>
+						</li>
+						<li class="nav-item mr-2">
+							<a class="nav-link" href="#!"> <i class="fab fa-google-play"></i></a>
+						</li>
+						<li class="nav-item mr-2">
+							<a class="nav-link" href="#!"> <i class="fab fa-windows"></i></a>
+						</li>
+					</ul>
+					<!-- /.Download Links -->
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- ========================================= -->
+	<main class="home">
+		<!-- =========== Intro Section =============== -->
+		<section class="style2" id="intro">
+			<!-- fixed-section : Very Important for fixed section effect -->
+			<div class="fixed-section">
+				<div class="jumbotron">
+					<div class="container">
+						<div class="row">
+							<div class=" col-12">
+								<!-- Logo text-->
+								<div class="logo">
+									<h1 class="display-1"> 
+									<img class="blur-up lazyloaded" src="https://www.karigrocery.com/assets/images/logos/kari.png" style="width:150px" alt=""></div>
+								<!-- /Logo text -->
+								<p><mark style="color:#fa7d00">Kari Grocery App</mark></p>
+								<ul class="list-inline download-btns">
+									<li class="list-inline-item"><a class="btn " href="#about"><i class="fas fa-chevron-circle-down"></i><span> learn more</span></a></li>
+									<li class="list-inline-item"><a class="btn btn-white" href="#download"><i class="fas fa-download"></i><span> Download</span></a></li>
+								</ul>
+							</div>
+							<div class=" col-12">
+								<div class="imgPanel"><img class="img-fluid" src="assets/images/mainscreen/77.png" title="Kari Grocery" alt="Kari Grocery"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ========================================= -->
+		<!-- =========== About Section =============== -->
+		<section class="style2" id="about">
+			<div class="container ">
+				<div class="row">
+					<div class="col-md-12">
+						<!-- Section's Title -->
+						<div class="section-title text-center">
+							<h2 class="display-4">About Kari Grocery </h2>
+							
+						</div>
+						<!-- / Section's Title -->
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+						<div class="imgPanel zoomIn-img">
+						<img class="img-fluid" src="assets/images/mainscreen/22.png" title="Kari Grocery"
+						alt="Kari Grocery">
+						<img class="img-fluid" src="assets/images/store.png" title="Kari Grocery" alt="Kari Grocery">
+						</div>
+					</div>
+					<!-- About-features list -->
+					<div class="col-xl-6 col-lg-6 col-md-12">
+						<div class="col-md-12">
+						
+							<form action="mail.php" method="post">
+								<div class="form-group">
+									<label for="firstName">First Name</label>
+									<input class="form-control"  name="firstName" type="text" placeholder="John " required>
+									
+								</div>
+								<div class="form-group">
+									<label for="lastName">Last Name</label>
+									<input class="form-control"  name="lastName" type="text" placeholder="Deo" required>
+									
+								</div>
+								<div class="form-group">
+									<label for="email">Email</label>
+									<input class="form-control"  name="email" type="email" placeholder="Your Email" required>
+									
+								</div>
+								<div class="form-group">
+									<label for="email">Phone</label>
+									<input class="form-control"  name="Phone" type="text" 
+									placeholder="Your Phone Number " required>
+									
+								</div>
+								<button class="btn" name="notify" onclick="addSubject();">
+								<i class="fab fa-telegram-plane"> </i><span>Notify</span></button>
+							
+							</form>
+							
+						
+					</div>
+					</div>
+					<!-- /About-features list -->
+				</div>
+			</div>
+		</section>
+		<!-- ========================== -->
+		<!-- =========== Features Section =============== -->
+		<section class="style2" id="features">
+			<!-- Mask -->
+			<div class="mask"></div>
+			<!-- /Mask -->
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-md-12">
+						<!-- section title -->
+						<div class="section-title">
+							<h2 class="display-4">Features</h2>
+							
+						</div>
+						<!-- /section-title -->
+					</div>
+					<!-- Feature-list -->
+					<div class="features-list col-md-12 zoomIn-img ">
+						<ul class="text-left list-unstyled row">
+							<li class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+								<!-- Feature-icon -->
+								<div class="row">
+									<div class="col-lg-12 col-md-12">
+										 <h3 class="icon"><img src="assets/images/fea/1.png" 
+										style="width: 70px; margin: auto;display: block"></h3></div>
+									<!-- Feature-title-and-desc -->
+									<div class="col-lg-12 col-md-12">
+										<h3 class="title">Fast Grocery delivery and Pick up</h3>
+										</div>
+								</div>
+							</li>
+							<li class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+								<!-- Feature-icon -->
+								<div class="row">
+									<div class="col-lg-12 col-md-12" style="margin-top: 39px;">
+										<h3 class="icon"><img src="assets/images/fea/2.png" 
+										style="width: 70px; margin: auto;display: block"></h3></div>
+									<!-- Feature-title-and-desc -->
+									<div class="col-lg-12 col-md-12">
+										<h3 class="title">Browse your favourite stores
+</h3>
+										</div>
+								</div>
+							</li>
+							<li class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+								<!-- Feature-icon -->
+								<div class="row">
+									<div class="col-lg-12 col-md-12">
+										<h3 class="icon">
+										<img src="assets/images/fea/4.png" 
+										style="width: 70px; margin: auto;display: block"></h3></div>
+									<!-- Feature-title-and-desc -->
+									<div class="col-lg-12 col-md-12">
+										<h3 class="title">Orders tracking</h3>
+									</div>
+								</div>
+							</li>
+							<li class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+								<!-- Feature-icon -->
+								<div class="row">
+									<div class="col-lg-12 col-md-12">
+										<h3 class="icon"><img src="assets/images/fea/d.png" style="width: 70px; margin: auto;display: block"></h3></div>
+									<!-- Feature-title-and-desc -->
+									<div class="col-lg-12 col-md-12">
+										<h3 class="title">Discounts notification</h3>
+										</div>
+								</div>
+							</li>
+							<li class="col-xl-4 col-lg-4 col-md-12 col-sm-12"style="margin-top: 39px;">
+								<!-- Feature-icon -->
+								<div class="row">
+									<div class="col-lg-12 col-md-12">
+										<h3 class="icon"><img src="assets/images/fea/6.png" style="width: 70px; margin: auto;display: block"></h3></div>
+									<!-- Feature-title-and-desc -->
+									<div class="col-lg-12 col-md-12">
+										<h3 class="title">Pay by Credit card, Mastercard and Cash</h3>
+										</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- / Feature-list -->
+				</div>
+			</div>
+		</section>
+		<!-- ========================================= -->
+		
+		<!-- ========================================= -->
+		<section id="screenshots">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-md-12">
+						<!-- section title -->
+						<div class="section-title">
+							<h2 class="display-4">Screenshots</h2>
+							
+						</div>
+						<!-- /section-title -->
+					</div>
+					<!-- Screenshots Slider -->
+					<div class="col-md-12">
+						<div class="carousel slide" id="screenshots-slider" data-ride="carousel">
+							<div class="carousel-inner zoomIn-img">
+								<div class="carousel-item active"><img class="d-block" src="assets/images/mainscreen/44.png" title="Kari Grocery" alt="Kari Grocery"></div>
+								<div class="carousel-item"><img class="d-block " src="assets/images/mainscreen/33.png" title="Kari Grocery" alt="Kari Grocery"></div>
+								<div class="carousel-item"><img class="d-block " src="assets/images/mainscreen/22.png" title="Kari Grocery" alt="Kari Grocery"></div>
+							</div><a class="carousel-control-prev" data-slide="prev" href="#screenshots-slider" role="button"><span class="fas fa-angle-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" data-slide="next" href="#screenshots-slider" role="button"><span class="fas fa-angle-right" aria-hidden="true"></span><span class="sr-only">Next</span></a></div>
+					</div>
+					<!-- / Screenshots Slider -->
+				</div>
+			</div>
+		</section>
+		<!-- ========================================= -->
+		
+		
+	
+	
+		
+		<!-- =========== CallToAction Section =============== -->
+		<section class="small-section" id="download"><!-- Mask -->
+		<div class="mask"></div>
+		<!-- /Mask -->
+		<div class="container text-center">
+		<div class="row show">
+		<div class="col-xl-6 col-lg-12 col-md-12">
+		<!-- section title -->
+		<div class="section-title text-left"> 
+		<h2 class="display-4">Coming Soon </h2>
+		
+		</div><!-- /section-title -->
+		</div><!-- Download-links --> 
+		<div class="download-links col-xl-6 col-lg-12 col-md-12">
+		<ul class="list-inline">
+		<li class="list-inline-item">
+		<a class="btn btn-transparent" href="#!">
+		<i class="fab fa-apple"></i><span>App store</span></a></li>
+		<li class="list-inline-item">
+		<a class="btn btn-transparent" href="#!">
+		<i class="fab fa-google-play"></i><span>google play</span></a></li>
+		
+		</ul></div><!-- / Download-links --></div></div></section>
+		<!-- ========================================= -->
+		<!-- =========== Contact Section =============== -->
+		<section id="contact">
+			<div class="container ">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<!-- section title -->
+						<div class="section-title">
+							<h2 class="display-4">Contact</h2>
+							
+						</div>
+						<!-- /section-title -->
+					</div>
+					<!-- Contact Form -->
+					<div class="col-md-12">
+						
+							<form method="post" action="enquiry.php">
+								<div class="form-group">
+									<label for="firstName">First Name</label>
+									<input class="form-control"  name="firstName" type="text" placeholder="John " required>
+									
+								</div>
+								<div class="form-group">
+									<label for="lastName">Last Name</label>
+									<input class="form-control"  name="lastName" type="text" placeholder="Deo" required>
+									
+								</div>
+								<div class="form-group">
+									<label for="email">Email</label>
+									<input class="form-control"  name="email" type="email" placeholder="john.deo@example.com" required>
+									
+								</div>
+								<div class="form-group">
+									<label for="message">Message</label>
+									<textarea class="form-control" id="message" name="message" placeholder="Please enter your Message" rows="4" required></textarea>
+									
+								</div>
+								<button class="btn" type="submit" name="submit"><i class="fab fa-telegram-plane"> </i><span> Send</span></button>
+							
+							</form>
+							
+						
+					</div>
+					<!-- / Contact Form -->
+				</div>
+			</div>
+		</section>
+		<!-- ========================================= -->
+		<!-- =========== contactInfo Section =============== -->
+		<section class="small-section" id="">
+			<!-- Mask -->
+			<div class="mask"></div>
+			<!-- /Mask -->
+			<div class="container ">
+				<div class="row">
+					<div class="col-lg-4 col-sm-12 col-md-12 d-none d-lg-block d-xl-block">
+					<img style="    width: 200px;"src="assets/images/store.png" title="Kari Grocery" alt="Kari Grocery"></div>
+					<!-- Contact Info  -->
+					<div class=" col-lg-8 col-md-12">
+						<ul class="list-unstyled">
+							<li>
+								<p class="lead"> <i class="fas fa-location-arrow"> </i><span>&nbsp;&nbsp;Contact Us for more information</span></p>
+							</li>
+							<li>
+								<p class="lead"> <i class="fas fa-phone"> </i><span dir="ltr">&nbsp;&nbsp;+14384025779</span></p>
+							</li>
+							<li>
+								<p class="lead"><i class="fas fa-envelope"> </i><span>&nbsp;&nbsp;info@karigrocery.com</span></p>
+							</li>
+							<li>
+								<ul class="list-inline socialMediaLinks">
+									<li class="list-inline-item"><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+									<li class="list-inline-item"><a href="#!"><i class="fab fa-instagram"></i></a></li>
+									<li class="list-inline-item"><a href="#!"><i class="fab fa-twitter"></i></a></li>
+									
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<!-- /Contact Info  -->
+				</div>
+			</div>
+		</section>
+		<!-- ========================================= -->
+		
+	</main>
+	<!-- =========== footer =============== -->
+	
+	<!-- ========================================= -->
+	<footer>
+		<!-- Copyright -->
+		<div class="container justify-content-center text-center">
+			<div class="copyright p-1">
+				<p class="m-0">copyright 2020 Kari Grocery</p>
+			</div>
+		</div>
+		<!-- Back to top -->
+		<div id="top-btn">
+			<p><i class="fas fa-angle-up"></i></p>
+		</div>
+	</footer>
+	<!-- ========================================= -->
+	<!-- =========== Loading screen  =============== -->
+	<div id="loader">
+		<h3 class="text"> <span>l</span><span>o</span><span>a</span><span>d</span><span>i</span><span>n</span><span>g  </span></h3></div>
+	<!-- ========================================= -->
+	
+	<!-- Image Modal ( Zooming In )-->
+	<div class="modal fade" id="image-modal" role="dialog" tabindex="-1">
+		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button class="close" data-dismiss="modal" type="button" aria-label="Close"><span aria-hidden="true">&times;   </span></button><img src="https://norhan-mohammed.com/demos/Kari Grocery/ltr/default-demos/" title="Kari Grocery" alt="Kari Grocery"></div>
+			</div>
+		</div>
+	</div>
+	<!-- / Image Modal -->
+	<!-- ========================================= -->
+	<!-- =========== Scripts  =============== -->
+	<!-- =========== Scripts  =============== -->
+	<script src="assets/js/scripts.js" type="text/javascript"></script>
+	
+	<script>
+	(function() {
+		/*!
+		 * Bootstrap Colorpicker v2.5.2
+		 * https://itsjavi.com/bootstrap-colorpicker/
+		 */
+		! function(a, b) {
+			"function" == typeof define && define.amd ? define(["jquery"], function(a) {
+				return b(a)
+			}) : "object" == typeof exports ? module.exports = b(require("jquery")) : jQuery && !jQuery.fn.colorpicker && b(jQuery)
+		}(this, function(a) {
+			"use strict";
+			var b = function(c, d, e, f, g) {
+				this.fallbackValue = e ? "string" == typeof e ? this.parse(e) : e : null, this.fallbackFormat = f ? f : "rgba", this.hexNumberSignPrefix = g === !0, this.value = this.fallbackValue, this.origFormat = null, this.predefinedColors = d ? d : {}, this.colors = a.extend({}, b.webColors, this.predefinedColors), c && ("undefined" != typeof c.h ? this.value = c : this.setColor(String(c))), this.value || (this.value = {
+					h: 0,
+					s: 0,
+					b: 0,
+					a: 1
+				})
+			};
+			b.webColors = {
+				aliceblue: "f0f8ff",
+				antiquewhite: "faebd7",
+				aqua: "00ffff",
+				aquamarine: "7fffd4",
+				azure: "f0ffff",
+				beige: "f5f5dc",
+				bisque: "ffe4c4",
+				black: "000000",
+				blanchedalmond: "ffebcd",
+				blue: "0000ff",
+				blueviolet: "8a2be2",
+				brown: "a52a2a",
+				burlywood: "deb887",
+				cadetblue: "5f9ea0",
+				chartreuse: "7fff00",
+				chocolate: "d2691e",
+				coral: "ff7f50",
+				cornflowerblue: "6495ed",
+				cornsilk: "fff8dc",
+				crimson: "dc143c",
+				cyan: "00ffff",
+				darkblue: "00008b",
+				darkcyan: "008b8b",
+				darkgoldenrod: "b8860b",
+				darkgray: "a9a9a9",
+				darkgreen: "006400",
+				darkkhaki: "bdb76b",
+				darkmagenta: "8b008b",
+				darkolivegreen: "556b2f",
+				darkorange: "ff8c00",
+				darkorchid: "9932cc",
+				darkred: "8b0000",
+				darksalmon: "e9967a",
+				darkseagreen: "8fbc8f",
+				darkslateblue: "483d8b",
+				darkslategray: "2f4f4f",
+				darkturquoise: "00ced1",
+				darkviolet: "9400d3",
+				deeppink: "ff1493",
+				deepskyblue: "00bfff",
+				dimgray: "696969",
+				dodgerblue: "1e90ff",
+				firebrick: "b22222",
+				floralwhite: "fffaf0",
+				forestgreen: "228b22",
+				fuchsia: "ff00ff",
+				gainsboro: "dcdcdc",
+				ghostwhite: "f8f8ff",
+				gold: "ffd700",
+				goldenrod: "daa520",
+				gray: "808080",
+				green: "008000",
+				greenyellow: "adff2f",
+				honeydew: "f0fff0",
+				hotpink: "ff69b4",
+				indianred: "cd5c5c",
+				indigo: "4b0082",
+				ivory: "fffff0",
+				khaki: "f0e68c",
+				lavender: "e6e6fa",
+				lavenderblush: "fff0f5",
+				lawngreen: "7cfc00",
+				lemonchiffon: "fffacd",
+				lightblue: "add8e6",
+				lightcoral: "f08080",
+				lightcyan: "e0ffff",
+				lightgoldenrodyellow: "fafad2",
+				lightgrey: "d3d3d3",
+				lightgreen: "90ee90",
+				lightpink: "ffb6c1",
+				lightsalmon: "ffa07a",
+				lightseagreen: "20b2aa",
+				lightskyblue: "87cefa",
+				lightslategray: "778899",
+				lightsteelblue: "b0c4de",
+				lightyellow: "ffffe0",
+				lime: "00ff00",
+				limegreen: "32cd32",
+				linen: "faf0e6",
+				magenta: "ff00ff",
+				maroon: "800000",
+				mediumaquamarine: "66cdaa",
+				mediumblue: "0000cd",
+				mediumorchid: "ba55d3",
+				mediumpurple: "9370d8",
+				mediumseagreen: "3cb371",
+				mediumslateblue: "7b68ee",
+				mediumspringgreen: "00fa9a",
+				mediumturquoise: "48d1cc",
+				mediumvioletred: "c71585",
+				midnightblue: "191970",
+				mintcream: "f5fffa",
+				mistyrose: "ffe4e1",
+				moccasin: "ffe4b5",
+				navajowhite: "ffdead",
+				navy: "000080",
+				oldlace: "fdf5e6",
+				olive: "808000",
+				olivedrab: "6b8e23",
+				orange: "ffa500",
+				orangered: "ff4500",
+				orchid: "da70d6",
+				palegoldenrod: "eee8aa",
+				palegreen: "98fb98",
+				paleturquoise: "afeeee",
+				palevioletred: "d87093",
+				papayawhip: "ffefd5",
+				peachpuff: "ffdab9",
+				peru: "cd853f",
+				pink: "ffc0cb",
+				plum: "dda0dd",
+				powderblue: "b0e0e6",
+				purple: "800080",
+				red: "ff0000",
+				rosybrown: "bc8f8f",
+				royalblue: "4169e1",
+				saddlebrown: "8b4513",
+				salmon: "fa8072",
+				sandybrown: "f4a460",
+				seagreen: "2e8b57",
+				seashell: "fff5ee",
+				sienna: "a0522d",
+				silver: "c0c0c0",
+				skyblue: "87ceeb",
+				slateblue: "6a5acd",
+				slategray: "708090",
+				snow: "fffafa",
+				springgreen: "00ff7f",
+				steelblue: "4682b4",
+				tan: "d2b48c",
+				teal: "008080",
+				thistle: "d8bfd8",
+				tomato: "ff6347",
+				turquoise: "40e0d0",
+				violet: "ee82ee",
+				wheat: "f5deb3",
+				white: "ffffff",
+				whitesmoke: "f5f5f5",
+				yellow: "ffff00",
+				yellowgreen: "9acd32",
+				transparent: "transparent"
+			}, b.prototype = {
+				constructor: b,
+				colors: {},
+				predefinedColors: {},
+				getValue: function() {
+					return this.value
+				},
+				setValue: function(a) {
+					this.value = a
+				},
+				_sanitizeNumber: function(a) {
+					return "number" == typeof a ? a : isNaN(a) || null === a || "" === a || void 0 === a ? 1 : "" === a ? 0 : "undefined" != typeof a.toLowerCase ? (a.match(/^\./) && (a = "0" + a), Math.ceil(100 * parseFloat(a)) / 100) : 1
+				},
+				isTransparent: function(a) {
+					return !(!a || !("string" == typeof a || a instanceof String)) && (a = a.toLowerCase().trim(), "transparent" === a || a.match(/#?00000000/) || a.match(/(rgba|hsla)\(0,0,0,0?\.?0\)/))
+				},
+				rgbaIsTransparent: function(a) {
+					return 0 === a.r && 0 === a.g && 0 === a.b && 0 === a.a
+				},
+				setColor: function(a) {
+					if(a = a.toLowerCase().trim()) {
+						if(this.isTransparent(a)) return this.value = {
+							h: 0,
+							s: 0,
+							b: 0,
+							a: 0
+						}, !0;
+						var b = this.parse(a);
+						b ? (this.value = this.value = {
+							h: b.h,
+							s: b.s,
+							b: b.b,
+							a: b.a
+						}, this.origFormat || (this.origFormat = b.format)) : this.fallbackValue && (this.value = this.fallbackValue)
+					}
+					return !1
+				},
+				setHue: function(a) {
+					this.value.h = 1 - a
+				},
+				setSaturation: function(a) {
+					this.value.s = a
+				},
+				setBrightness: function(a) {
+					this.value.b = 1 - a
+				},
+				setAlpha: function(a) {
+					this.value.a = Math.round(parseInt(100 * (1 - a), 10) / 100 * 100) / 100
+				},
+				toRGB: function(a, b, c, d) {
+					0 === arguments.length && (a = this.value.h, b = this.value.s, c = this.value.b, d = this.value.a), a *= 360;
+					var e, f, g, h, i;
+					return a = a % 360 / 60, i = c * b, h = i * (1 - Math.abs(a % 2 - 1)), e = f = g = c - i, a = ~~a, e += [i, h, 0, 0, h, i][a], f += [h, i, i, h, 0, 0][a], g += [0, 0, h, i, i, h][a], {
+						r: Math.round(255 * e),
+						g: Math.round(255 * f),
+						b: Math.round(255 * g),
+						a: d
+					}
+				},
+				toHex: function(a, b, c, d, e) {
+					arguments.length <= 1 && (b = this.value.h, c = this.value.s, d = this.value.b, e = this.value.a);
+					var f = "#",
+						g = this.toRGB(b, c, d, e);
+					if(this.rgbaIsTransparent(g)) return "transparent";
+					a || (f = this.hexNumberSignPrefix ? "#" : "");
+					var h = f + ((1 << 24) + (parseInt(g.r) << 16) + (parseInt(g.g) << 8) + parseInt(g.b)).toString(16).slice(1);
+					return h
+				},
+				toHSL: function(a, b, c, d) {
+					0 === arguments.length && (a = this.value.h, b = this.value.s, c = this.value.b, d = this.value.a);
+					var e = a,
+						f = (2 - b) * c,
+						g = b * c;
+					return g /= f > 0 && f <= 1 ? f : 2 - f, f /= 2, g > 1 && (g = 1), {
+						h: isNaN(e) ? 0 : e,
+						s: isNaN(g) ? 0 : g,
+						l: isNaN(f) ? 0 : f,
+						a: isNaN(d) ? 0 : d
+					}
+				},
+				toAlias: function(a, b, c, d) {
+					var e, f = 0 === arguments.length ? this.toHex(!0) : this.toHex(!0, a, b, c, d),
+						g = "alias" === this.origFormat ? f : this.toString(!1, this.origFormat);
+					for(var h in this.colors)
+						if(e = this.colors[h].toLowerCase().trim(), e === f || e === g) return h;
+					return !1
+				},
+				RGBtoHSB: function(a, b, c, d) {
+					a /= 255, b /= 255, c /= 255;
+					var e, f, g, h;
+					return g = Math.max(a, b, c), h = g - Math.min(a, b, c), e = 0 === h ? null : g === a ? (b - c) / h : g === b ? (c - a) / h + 2 : (a - b) / h + 4, e = (e + 360) % 6 * 60 / 360, f = 0 === h ? 0 : h / g, {
+						h: this._sanitizeNumber(e),
+						s: f,
+						b: g,
+						a: this._sanitizeNumber(d)
+					}
+				},
+				HueToRGB: function(a, b, c) {
+					return c < 0 ? c += 1 : c > 1 && (c -= 1), 6 * c < 1 ? a + (b - a) * c * 6 : 2 * c < 1 ? b : 3 * c < 2 ? a + (b - a) * (2 / 3 - c) * 6 : a
+				},
+				HSLtoRGB: function(a, b, c, d) {
+					b < 0 && (b = 0);
+					var e;
+					e = c <= .5 ? c * (1 + b) : c + b - c * b;
+					var f = 2 * c - e,
+						g = a + 1 / 3,
+						h = a,
+						i = a - 1 / 3,
+						j = Math.round(255 * this.HueToRGB(f, e, g)),
+						k = Math.round(255 * this.HueToRGB(f, e, h)),
+						l = Math.round(255 * this.HueToRGB(f, e, i));
+					return [j, k, l, this._sanitizeNumber(d)]
+				},
+				parse: function(b) {
+					if("string" != typeof b) return this.fallbackValue;
+					if(0 === arguments.length) return !1;
+					var c, d, e = this,
+						f = !1,
+						g = "undefined" != typeof this.colors[b];
+					return g && (b = this.colors[b].toLowerCase().trim()), a.each(this.stringParsers, function(a, h) {
+						var i = h.re.exec(b);
+						return c = i && h.parse.apply(e, [i]), !c || (f = {}, d = g ? "alias" : h.format ? h.format : e.getValidFallbackFormat(), f = d.match(/hsla?/) ? e.RGBtoHSB.apply(e, e.HSLtoRGB.apply(e, c)) : e.RGBtoHSB.apply(e, c), f instanceof Object && (f.format = d), !1)
+					}), f
+				},
+				getValidFallbackFormat: function() {
+					var a = ["rgba", "rgb", "hex", "hsla", "hsl"];
+					return this.origFormat && a.indexOf(this.origFormat) !== -1 ? this.origFormat : this.fallbackFormat && a.indexOf(this.fallbackFormat) !== -1 ? this.fallbackFormat : "rgba"
+				},
+				toString: function(a, c, d) {
+					c = c || this.origFormat || this.fallbackFormat, d = d || !1;
+					var e = !1;
+					switch(c) {
+						case "rgb":
+							return e = this.toRGB(), this.rgbaIsTransparent(e) ? "transparent" : "rgb(" + e.r + "," + e.g + "," + e.b + ")";
+						case "rgba":
+							return e = this.toRGB(), "rgba(" + e.r + "," + e.g + "," + e.b + "," + e.a + ")";
+						case "hsl":
+							return e = this.toHSL(), "hsl(" + Math.round(360 * e.h) + "," + Math.round(100 * e.s) + "%," + Math.round(100 * e.l) + "%)";
+						case "hsla":
+							return e = this.toHSL(), "hsla(" + Math.round(360 * e.h) + "," + Math.round(100 * e.s) + "%," + Math.round(100 * e.l) + "%," + e.a + ")";
+						case "hex":
+							return this.toHex(a);
+						case "alias":
+							return e = this.toAlias(), e === !1 ? this.toString(a, this.getValidFallbackFormat()) : d && !(e in b.webColors) && e in this.predefinedColors ? this.predefinedColors[e] : e;
+						default:
+							return e
+					}
+				},
+				stringParsers: [{
+					re: /rgb\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*?\)/,
+					format: "rgb",
+					parse: function(a) {
+						return [a[1], a[2], a[3], 1]
+					}
+				}, {
+					re: /rgb\(\s*(\d*(?:\.\d+)?)\%\s*,\s*(\d*(?:\.\d+)?)\%\s*,\s*(\d*(?:\.\d+)?)\%\s*?\)/,
+					format: "rgb",
+					parse: function(a) {
+						return [2.55 * a[1], 2.55 * a[2], 2.55 * a[3], 1]
+					}
+				}, {
+					re: /rgba\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*(?:,\s*(\d*(?:\.\d+)?)\s*)?\)/,
+					format: "rgba",
+					parse: function(a) {
+						return [a[1], a[2], a[3], a[4]]
+					}
+				}, {
+					re: /rgba\(\s*(\d*(?:\.\d+)?)\%\s*,\s*(\d*(?:\.\d+)?)\%\s*,\s*(\d*(?:\.\d+)?)\%\s*(?:,\s*(\d*(?:\.\d+)?)\s*)?\)/,
+					format: "rgba",
+					parse: function(a) {
+						return [2.55 * a[1], 2.55 * a[2], 2.55 * a[3], a[4]]
+					}
+				}, {
+					re: /hsl\(\s*(\d*(?:\.\d+)?)\s*,\s*(\d*(?:\.\d+)?)\%\s*,\s*(\d*(?:\.\d+)?)\%\s*?\)/,
+					format: "hsl",
+					parse: function(a) {
+						return [a[1] / 360, a[2] / 100, a[3] / 100, a[4]]
+					}
+				}, {
+					re: /hsla\(\s*(\d*(?:\.\d+)?)\s*,\s*(\d*(?:\.\d+)?)\%\s*,\s*(\d*(?:\.\d+)?)\%\s*(?:,\s*(\d*(?:\.\d+)?)\s*)?\)/,
+					format: "hsla",
+					parse: function(a) {
+						return [a[1] / 360, a[2] / 100, a[3] / 100, a[4]]
+					}
+				}, {
+					re: /#?([a-fA-F0-9]{2})([a-fA-F0-9]{2})([a-fA-F0-9]{2})/,
+					format: "hex",
+					parse: function(a) {
+						return [parseInt(a[1], 16), parseInt(a[2], 16), parseInt(a[3], 16), 1]
+					}
+				}, {
+					re: /#?([a-fA-F0-9])([a-fA-F0-9])([a-fA-F0-9])/,
+					format: "hex",
+					parse: function(a) {
+						return [parseInt(a[1] + a[1], 16), parseInt(a[2] + a[2], 16), parseInt(a[3] + a[3], 16), 1]
+					}
+				}],
+				colorNameToHex: function(a) {
+					return "undefined" != typeof this.colors[a.toLowerCase()] && this.colors[a.toLowerCase()]
+				}
+			};
+			var c = {
+					horizontal: !1,
+					inline: !1,
+					color: !1,
+					format: !1,
+					input: "input",
+					container: !1,
+					component: ".add-on, .input-group-addon",
+					fallbackColor: !1,
+					fallbackFormat: "hex",
+					hexNumberSignPrefix: !0,
+					sliders: {
+						saturation: {
+							maxLeft: 100,
+							maxTop: 100,
+							callLeft: "setSaturation",
+							callTop: "setBrightness"
+						},
+						hue: {
+							maxLeft: 0,
+							maxTop: 100,
+							callLeft: !1,
+							callTop: "setHue"
+						},
+						alpha: {
+							maxLeft: 0,
+							maxTop: 100,
+							callLeft: !1,
+							callTop: "setAlpha"
+						}
+					},
+					slidersHorz: {
+						saturation: {
+							maxLeft: 100,
+							maxTop: 100,
+							callLeft: "setSaturation",
+							callTop: "setBrightness"
+						},
+						hue: {
+							maxLeft: 100,
+							maxTop: 0,
+							callLeft: "setHue",
+							callTop: !1
+						},
+						alpha: {
+							maxLeft: 100,
+							maxTop: 0,
+							callLeft: "setAlpha",
+							callTop: !1
+						}
+					},
+					template: '<div class="colorpicker dropdown-menu"><div class="colorpicker-saturation"><i><b></b></i></div><div class="colorpicker-hue"><i></i></div><div class="colorpicker-alpha"><i></i></div><div class="colorpicker-color"><div /></div><div class="colorpicker-selectors"></div></div>',
+					align: "right",
+					customClass: null,
+					colorSelectors: null
+				},
+				d = function(b, d) {
+					this.element = a(b).addClass("colorpicker-element"), this.options = a.extend(!0, {}, c, this.element.data(), d), this.component = this.options.component, this.component = this.component !== !1 && this.element.find(this.component), this.component && 0 === this.component.length && (this.component = !1), this.container = this.options.container === !0 ? this.element : this.options.container, this.container = this.container !== !1 && a(this.container), this.input = this.element.is("input") ? this.element : !!this.options.input && this.element.find(this.options.input), this.input && 0 === this.input.length && (this.input = !1), this.color = this.createColor(this.options.color !== !1 ? this.options.color : this.getValue()), this.format = this.options.format !== !1 ? this.options.format : this.color.origFormat, this.options.color !== !1 && (this.updateInput(this.color), this.updateData(this.color)), this.disabled = !1;
+					var e = this.picker = a(this.options.template);
+					if(this.options.customClass && e.addClass(this.options.customClass), this.options.inline ? e.addClass("colorpicker-inline colorpicker-visible") : e.addClass("colorpicker-hidden"), this.options.horizontal && e.addClass("colorpicker-horizontal"), ["rgba", "hsla", "alias"].indexOf(this.format) === -1 && this.options.format !== !1 && "transparent" !== this.getValue() || e.addClass("colorpicker-with-alpha"), "right" === this.options.align && e.addClass("colorpicker-right"), this.options.inline === !0 && e.addClass("colorpicker-no-arrow"), this.options.colorSelectors) {
+						var f = this,
+							g = f.picker.find(".colorpicker-selectors");
+						g.length > 0 && (a.each(this.options.colorSelectors, function(b, c) {
+							var d = a("<i />").addClass("colorpicker-selectors-color").css("background-color", c).data("class", b).data("alias", b);
+							d.on("mousedown.colorpicker touchstart.colorpicker", function(b) {
+								b.preventDefault(), f.setValue("alias" === f.format ? a(this).data("alias") : a(this).css("background-color"))
+							}), g.append(d)
+						}), g.show().addClass("colorpicker-visible"))
+					}
+					e.on("mousedown.colorpicker touchstart.colorpicker", a.proxy(function(a) {
+						a.target === a.currentTarget && a.preventDefault()
+					}, this)), e.find(".colorpicker-saturation, .colorpicker-hue, .colorpicker-alpha").on("mousedown.colorpicker touchstart.colorpicker", a.proxy(this.mousedown, this)), e.appendTo(this.container ? this.container : a("body")), this.input !== !1 && (this.input.on({
+						"keyup.colorpicker": a.proxy(this.keyup, this)
+					}), this.input.on({
+						"change.colorpicker": a.proxy(this.change, this)
+					}), this.component === !1 && this.element.on({
+						"focus.colorpicker": a.proxy(this.show, this)
+					}), this.options.inline === !1 && this.element.on({
+						"focusout.colorpicker": a.proxy(this.hide, this)
+					})), this.component !== !1 && this.component.on({
+						"click.colorpicker": a.proxy(this.show, this)
+					}), this.input === !1 && this.component === !1 && this.element.on({
+						"click.colorpicker": a.proxy(this.show, this)
+					}), this.input !== !1 && this.component !== !1 && "color" === this.input.attr("type") && this.input.on({
+						"click.colorpicker": a.proxy(this.show, this),
+						"focus.colorpicker": a.proxy(this.show, this)
+					}), this.update(), a(a.proxy(function() {
+						this.element.trigger("create")
+					}, this))
+				};
+			d.Color = b, d.prototype = {
+				constructor: d,
+				destroy: function() {
+					this.picker.remove(), this.element.removeData("colorpicker", "color").off(".colorpicker"), this.input !== !1 && this.input.off(".colorpicker"), this.component !== !1 && this.component.off(".colorpicker"), this.element.removeClass("colorpicker-element"), this.element.trigger({
+						type: "destroy"
+					})
+				},
+				reposition: function() {
+					if(this.options.inline !== !1 || this.options.container) return !1;
+					var a = this.container && this.container[0] !== window.document.body ? "position" : "offset",
+						b = this.component || this.element,
+						c = b[a]();
+					"right" === this.options.align && (c.left -= this.picker.outerWidth() - b.outerWidth()), this.picker.css({
+						top: c.top + b.outerHeight(),
+						left: c.left
+					})
+				},
+				show: function(b) {
+					this.isDisabled() || (this.picker.addClass("colorpicker-visible").removeClass("colorpicker-hidden"), this.reposition(), a(window).on("resize.colorpicker", a.proxy(this.reposition, this)), !b || this.hasInput() && "color" !== this.input.attr("type") || b.stopPropagation && b.preventDefault && (b.stopPropagation(), b.preventDefault()), !this.component && this.input || this.options.inline !== !1 || a(window.document).on({
+						"mousedown.colorpicker": a.proxy(this.hide, this)
+					}), this.element.trigger({
+						type: "showPicker",
+						color: this.color
+					}))
+				},
+				hide: function(b) {
+					return("undefined" == typeof b || !b.target || !(a(b.currentTarget).parents(".colorpicker").length > 0 || a(b.target).parents(".colorpicker").length > 0)) && (this.picker.addClass("colorpicker-hidden").removeClass("colorpicker-visible"), a(window).off("resize.colorpicker", this.reposition), a(window.document).off({
+						"mousedown.colorpicker": this.hide
+					}), this.update(), void this.element.trigger({
+						type: "hidePicker",
+						color: this.color
+					}))
+				},
+				updateData: function(a) {
+					return a = a || this.color.toString(!1, this.format), this.element.data("color", a), a
+				},
+				updateInput: function(a) {
+					return a = a || this.color.toString(!1, this.format), this.input !== !1 && (this.input.prop("value", a), this.input.trigger("change")), a
+				},
+				updatePicker: function(a) {
+					"undefined" != typeof a && (this.color = this.createColor(a));
+					var b = this.options.horizontal === !1 ? this.options.sliders : this.options.slidersHorz,
+						c = this.picker.find("i");
+					if(0 !== c.length) return this.options.horizontal === !1 ? (b = this.options.sliders, c.eq(1).css("top", b.hue.maxTop * (1 - this.color.value.h)).end().eq(2).css("top", b.alpha.maxTop * (1 - this.color.value.a))) : (b = this.options.slidersHorz, c.eq(1).css("left", b.hue.maxLeft * (1 - this.color.value.h)).end().eq(2).css("left", b.alpha.maxLeft * (1 - this.color.value.a))), c.eq(0).css({
+						top: b.saturation.maxTop - this.color.value.b * b.saturation.maxTop,
+						left: this.color.value.s * b.saturation.maxLeft
+					}), this.picker.find(".colorpicker-saturation").css("backgroundColor", this.color.toHex(!0, this.color.value.h, 1, 1, 1)), this.picker.find(".colorpicker-alpha").css("backgroundColor", this.color.toHex(!0)), this.picker.find(".colorpicker-color, .colorpicker-color div").css("backgroundColor", this.color.toString(!0, this.format)), a
+				},
+				updateComponent: function(a) {
+					var b;
+					if(b = "undefined" != typeof a ? this.createColor(a) : this.color, this.component !== !1) {
+						var c = this.component.find("i").eq(0);
+						c.length > 0 ? c.css({
+							backgroundColor: b.toString(!0, this.format)
+						}) : this.component.css({
+							backgroundColor: b.toString(!0, this.format)
+						})
+					}
+					return b.toString(!1, this.format)
+				},
+				update: function(a) {
+					var b;
+					return this.getValue(!1) === !1 && a !== !0 || (b = this.updateComponent(), this.updateInput(b), this.updateData(b), this.updatePicker()), b
+				},
+				setValue: function(a) {
+					this.color = this.createColor(a), this.update(!0), this.element.trigger({
+						type: "changeColor",
+						color: this.color,
+						value: a
+					})
+				},
+				createColor: function(a) {
+					return new b(a ? a : null, this.options.colorSelectors, this.options.fallbackColor ? this.options.fallbackColor : this.color, this.options.fallbackFormat, this.options.hexNumberSignPrefix)
+				},
+				getValue: function(a) {
+					a = "undefined" == typeof a ? this.options.fallbackColor : a;
+					var b;
+					return b = this.hasInput() ? this.input.val() : this.element.data("color"), void 0 !== b && "" !== b && null !== b || (b = a), b
+				},
+				hasInput: function() {
+					return this.input !== !1
+				},
+				isDisabled: function() {
+					return this.disabled
+				},
+				disable: function() {
+					return this.hasInput() && this.input.prop("disabled", !0), this.disabled = !0, this.element.trigger({
+						type: "disable",
+						color: this.color,
+						value: this.getValue()
+					}), !0
+				},
+				enable: function() {
+					return this.hasInput() && this.input.prop("disabled", !1), this.disabled = !1, this.element.trigger({
+						type: "enable",
+						color: this.color,
+						value: this.getValue()
+					}), !0
+				},
+				currentSlider: null,
+				mousePointer: {
+					left: 0,
+					top: 0
+				},
+				mousedown: function(b) {
+					!b.pageX && !b.pageY && b.originalEvent && b.originalEvent.touches && (b.pageX = b.originalEvent.touches[0].pageX, b.pageY = b.originalEvent.touches[0].pageY), b.stopPropagation(), b.preventDefault();
+					var c = a(b.target),
+						d = c.closest("div"),
+						e = this.options.horizontal ? this.options.slidersHorz : this.options.sliders;
+					if(!d.is(".colorpicker")) {
+						if(d.is(".colorpicker-saturation")) this.currentSlider = a.extend({}, e.saturation);
+						else if(d.is(".colorpicker-hue")) this.currentSlider = a.extend({}, e.hue);
+						else {
+							if(!d.is(".colorpicker-alpha")) return !1;
+							this.currentSlider = a.extend({}, e.alpha)
+						}
+						var f = d.offset();
+						this.currentSlider.guide = d.find("i")[0].style, this.currentSlider.left = b.pageX - f.left, this.currentSlider.top = b.pageY - f.top, this.mousePointer = {
+							left: b.pageX,
+							top: b.pageY
+						}, a(window.document).on({
+							"mousemove.colorpicker": a.proxy(this.mousemove, this),
+							"touchmove.colorpicker": a.proxy(this.mousemove, this),
+							"mouseup.colorpicker": a.proxy(this.mouseup, this),
+							"touchend.colorpicker": a.proxy(this.mouseup, this)
+						}).trigger("mousemove")
+					}
+					return !1
+				},
+				mousemove: function(a) {
+					!a.pageX && !a.pageY && a.originalEvent && a.originalEvent.touches && (a.pageX = a.originalEvent.touches[0].pageX, a.pageY = a.originalEvent.touches[0].pageY), a.stopPropagation(), a.preventDefault();
+					var b = Math.max(0, Math.min(this.currentSlider.maxLeft, this.currentSlider.left + ((a.pageX || this.mousePointer.left) - this.mousePointer.left))),
+						c = Math.max(0, Math.min(this.currentSlider.maxTop, this.currentSlider.top + ((a.pageY || this.mousePointer.top) - this.mousePointer.top)));
+					return this.currentSlider.guide.left = b + "px", this.currentSlider.guide.top = c + "px", this.currentSlider.callLeft && this.color[this.currentSlider.callLeft].call(this.color, b / this.currentSlider.maxLeft), this.currentSlider.callTop && this.color[this.currentSlider.callTop].call(this.color, c / this.currentSlider.maxTop), this.options.format !== !1 || "setAlpha" !== this.currentSlider.callTop && "setAlpha" !== this.currentSlider.callLeft || (1 !== this.color.value.a ? (this.format = "rgba", this.color.origFormat = "rgba") : (this.format = "hex", this.color.origFormat = "hex")), this.update(!0), this.element.trigger({
+						type: "changeColor",
+						color: this.color
+					}), !1
+				},
+				mouseup: function(b) {
+					return b.stopPropagation(), b.preventDefault(), a(window.document).off({
+						"mousemove.colorpicker": this.mousemove,
+						"touchmove.colorpicker": this.mousemove,
+						"mouseup.colorpicker": this.mouseup,
+						"touchend.colorpicker": this.mouseup
+					}), !1
+				},
+				change: function(a) {
+					this.keyup(a)
+				},
+				keyup: function(a) {
+					38 === a.keyCode ? (this.color.value.a < 1 && (this.color.value.a = Math.round(100 * (this.color.value.a + .01)) / 100), this.update(!0)) : 40 === a.keyCode ? (this.color.value.a > 0 && (this.color.value.a = Math.round(100 * (this.color.value.a - .01)) / 100), this.update(!0)) : (this.color = this.createColor(this.input.val()), this.color.origFormat && this.options.format === !1 && (this.format = this.color.origFormat), this.getValue(!1) !== !1 && (this.updateData(), this.updateComponent(), this.updatePicker())), this.element.trigger({
+						type: "changeColor",
+						color: this.color,
+						value: this.input.val()
+					})
+				}
+			}, a.colorpicker = d, a.fn.colorpicker = function(b) {
+				var c = Array.prototype.slice.call(arguments, 1),
+					e = 1 === this.length,
+					f = null,
+					g = this.each(function() {
+						var e = a(this),
+							g = e.data("colorpicker"),
+							h = "object" == typeof b ? b : {};
+						g || (g = new d(this, h), e.data("colorpicker", g)), "string" == typeof b ? a.isFunction(g[b]) ? f = g[b].apply(g, c) : (c.length && (g[b] = c[0]), f = g[b]) : f = e
+					});
+				return e ? f : g
+			}, a.fn.colorpicker.constructor = d
+		});
+	})();
+	</script>
+	<style>
+	/*!
+* Bootstrap Colorpicker - Simple and customizable colorpicker component for Twitter Bootstrap.
+* @package bootstrap-colorpicker
+* @version v3.0.0-beta.1
+* @license MIT
+* @link https://farbelous.github.io/bootstrap-colorpicker/
+* @link https://github.com/farbelous/bootstrap-colorpicker.git
+*/
+	
+	.colorpicker-saturation {
+		width: 100px;
+		height: 100px;
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAQAAADa613fAAAP9klEQVR4XnRWC47rNgwcKjlA0bv2VL1Qi/YELRav7203iS1ppqZoiXCAhuBHVLI74xFtG3/Hz2joIOjRGuR5eMYuRn9YA1fds859KX8ZvczLr9/pImiR3Rqky9/wlajRIdVE/1Rufeu/0No3/ASgBZAJUkwgi0iCaEatekJJoEqiTQncd67/gyOfRCZshTed0Nl8LbLj8D6qxtoq9/7kJz/aH/3Xfu8VwI5+AUH8DxE7gUyiIpZ5LwiGzUqE3CScJsCDQHAsvBnxWpkbC0QMHmBp6latWS0bnvrCN/x1+xPfce+Ij0GAyeAGGz15sOiax2UylPhKrFaMPnVWClwepKh07hdhkVDsK2uoyEIySergjdbY2VBtV8VLr8Mf9mF/4wMb7kR8FOhzFWZZe7HIZD9JRIbee28eJKBweTB6TwjYkAgWaUmtDveGw1Wx3zZ76YlPPfQd/+gTTUFkiGiJ+NQAszU1EPT/QJEgufolAMPkNU4CVOyUIBLg4xglEZHGQnTFOFV0VaulYddBhA986ge/7N/yQi/3flFgwfQq2ibLnTDBRl9TmUHyJASPV/eoN0UISIr+ICQKIFV4EpljSjV1uFVUq9hRtet5e9gXvuyHPW0zMhQxWaoBBa9Tg8vsCEhww23Smd0CKjIkmPIoxWrUBDgJqFCyESF43ctQxLUoHN7Q1KyVhqrNNm3cy2vMyQNPVKjc29Rh5SSU+giWdRJHkLnQG71FQEuNyNGBTDdBQQAKCuGiEUS/jcyGbkMPq931OIzb/dUPGuVlG7f+slqkO5NAAlzTMdcq0NkzmsEBmAQkbI+pSHbiqnuWIA6lijhvqwIxMyWxMGZiPU669XJE1tADDTs2HWpwKxuqdnTpOiOR42xlzLtm3pXGel3xd8/oTs8Xy0MV8GM1RlsC2Y3Wy3wut3M+2mEVux0Gt9fhzTWyLvGiiJYaqY5DWRFIwAiQ5r6gB9GpQihJw4I9j5Mkscj3BnzGjBhv8xna5P1Jo428o6IOPY5KFZtVOkEKqUjqQY9Gi+jrIOFwJUDzRtA9xyoIrGGmkNRmxVAnZoK+TkUIeUYni5wEzgOG5iZX5HCr2JyQNqdk++G0rgb1ochSIGutTj4P7F0PuRUAolmh5sCzAHn1BYyaADh6bgFeoBx6vst091CEvcSLWBBpqGq384jZ5llVHSwEShLx+D4d0mU3D5eEAJQ9KEhOZUYnDENV2qKgmIlQhWfdvcoXYaegPp/n1oKIOgYFqxrzQSciqNhv/5FqPpy6b0UcX2vf13DfWySRSEgkEYlEJJGQSyKJSEQSCYlEEpHexIVO3XOevffze2a+PfPv9x1rne1c3b3Mmlmz9mE++zuzngfnw/E+Dlc4LL4NwHdFy7u3KGPVmZ6/4eeMoDyre3i/KHADIHYO04w9zO0mAotuKnrc7XaPjvu66bNe5cDT7RlPepEnfS2X8dF1/utDvD+OwGDBxEgQywLCvIMYWBY+DShwAAORAdv9PswhDAqOUCi5+71AbFcDMR4xBDNfhySKXPXZ1+Vub+Q1Ltf5z7eC0AjVldHI26rIFdKIAyYBJCFVUhVDwttAnM52B3Ect1TFQXzJ0z33lOuib/QO8g+CuO0gKBRU80A8hkeJ0b1KRQWmFQVSh8mf3lpUpNaRulzN5NArrmKKGMijXgzk7w5ijdFVgT8f1IdFNjVWjDWicUYWEEMmSFDtILdzHW5XueHp7p+yuS54ep5/c5BE2Gw/gWPNYU4/PZaak2VGEsFjSbOf8irea6KQgojGCk0KxZY31tWWgzwayF8N5KYyo3VADVicWWrhwzr3ZqIOa5xW5zbqMPPMiyDURHDIHQTeWq7KFXcQPOqzPOL5Ov/iIDEDy7DHEwx0PTgjO8SS0fOEHcZNMt+XKEFMj8Q4QUSvPu6HPuvd4N9/x12RPwcIVRCAakSOUzHgsUSMFWYzDQ+PiOJqAOuYc9jh5TecnA+xHfFyOYhebeTH89P80wrCJzUjlsx7euIV0g4zQFUSiBPioIWBACFC7GgDj8P91ZSJOQmQP74MAnQo8H5RIe8kZ0kBcQCMAlEpRDiKROBxbR0ksdhWFq0gR9q9uQzkDzuIFQSPqAgRCAsCaVNF2ZAAhxvtzcqcnDk6tpXxSsayqXLIgSOb6zqeH+fvO0i9XEu5EVV+OZehRZJ6BGTeaRhCkTzVIZeAzaWGAFfErIPogQI5CuR3HQQx7DzBB16R3s7e0MBUPedjWutgG/JUTPqMeAQNEiytJRnJearWUgdwFNxN7rtBoECuj/O3BMHaTIxQ0a4GctireElTJHJvLTaalih5kvBCGMvkdESUMAdCFaI4yG8SpDfRWAptqkAJUwCG6B7lOREFSZBqKs57MEHqVJEBwHa2lp0OiKtiQ18gx9P89QrSXyc0vObBM4vPmBADqJZLAo/yzK7qPSZstCy+fDSZlhrm+Zkyjsf5q2otdC14zkLjHLf0me9wjNqQo0B1a6wBJRaIEgC2Qw9oby/cRHA+xHCQy/xlB1HVSV3Y/5yVhsc7dBi2UoIWCMcbELZWgxNCGUZ5y4ceBaLlE8dAfrEosrYT+z8ya3sxXndFBxuQivNGEHFCbLGBlBLKGYHZoeoQpcjtMn/uICPefcxecpuDOEemg9S/44cflZPIlWolyHkLrEpgbS9IQRlAgZgi0WDjsEiPh+PN/Fkogq4GdzPtarlRGW2tJwEK1RMTEvdVdmhAKHO1pdUuGQsVcX+rSfGzDbwGyE8NRPQc83HCaOkTZwPqABZBdFq8zAN1gue0FPO8wYUFBE1WkMwVzM1iQ4BItFh+H36Qy/yJg0DRQICmBl+tbKUC5cCj3yXI+SUFBS78ZAcBtHt+e9lBuiqpTNh9zTvIjzuIWxVYGQJpAZY+VWS3QKh84iSZbwuIdiDpc4KztQa/sjhMaDJEJDSZ8mZ+kCBdC0JpKVNQzZdKu+EsOeFCosrngVAkDS/uy6iGnW7UxmMpkB8FyFKo6iQW8z1HuBdMu1pdkZdB8jWTjlFtNaiJRYniIDcD+eECMqFLS9ED6DgxzCMKnRD3HYYA2uMCJUh70OK8G0EUnJV8lqe8nj84QdqLhdoJskNlEw1ivajM8LtPBhIeN99LESXI9xcQIHFQudHngZjUhXOQeGlUYmAddh5pxMhzV0M1vMAtMFIVmfp6fq+DgEWefjQVenstaqUy3bJQAiVlEihDghCDINFQg8oUhoQPkO8SBEM7SFQ72VYBwPuE7k8uYF5LNwg/TEd2zkuKjIIhTiJRlYrDfNS1QL7DYUcbcCyKJNwOwucVCVSwBBj/DwghXA2hQtACgCBBPprfXkAIFIYRXhONQARFU00Tsh6LEmmQUbkTImMi9me5qaHDIeBgHeRbdxAIqAJBCDSoCNVQglrciqX/ZCD9RRP6rgpBvhmKAFhg2ForBLXBYPtUjj7vCHPe8SXbYAY47gHB9mKeqjjIg/53fmMD0fR9Bug7SFcHI6EA1OC/E8QTL4NgBSGiCiyTChnI1zcQxmyfRZGM6w701KRybDvsIK3LWDx6mxGkcglEZQLkawnCdppZ6sgCh8trWWBUQaUWCEOlOs7HAenFE45QSu9RQQDAqchXNxDq4orQR44qRIFUQvM+mRJuB6GDEixgCbSBQGXghEEbdn1P/zO/QhAWCsWsmRhLa2VFkSZIgSVKmgEQhvk6K8YKMRZl7Dwg4amOUYvFBfLlE4RasOCB5S9PXKq0AqGDMiYIReXF0mYctITWBmqR5F38X5Y7yJfeCtKBzNbWYm5XpsMpf3dRZD3jPDesvdVCOs6KYQXIFw1E4fcE8dHWOepZBXpLJcACWUZVMRZbfvgXR4Ak8A7VVSKSVuu9p6/mFxyE7cOWavtLp952O8huK83+gmHzHaAsVXLgAvl8gPCvHzAFsM8GNXGKPH5cmN02sXTLa8QdKRXMzHv67/k5A9k1UIx36UH/VlWWtuKssNiRapB6BaLXl6MA+ayDcNS3v/sYXgCL620F1kk8QhKAEOvKu4DvajDO5zkHc4fBg76anyEIIcamBPex5EK8AoVHhMW7QAqWrYD1204CJB1hCfOAV/PTBPH0zBmJmsZZKCEaAmdqm4zMcYxYLN0JuHThIAjirAnp3px7TRgD+ZSD/K92M1CNIgbC8Ex7FkSEIlQEEUQEQQQBRBABEUQQEQTx3X0Evap9AhP39jL5OvuzAWuvbDaTTDIzX2aypUCJ0i7nAigoQAk9gUIUSxXEoCFyyVIuL9ZQcMZoArnwr4D0OLS8jGNGTgGnsZQWMYrcOARoIReAALBeWhf+RUCAIEsECFQHLkwR5zj4JW3t5WOUU5djvgQIawD53EDsctmYz8xGaZGPBUR3qNkiGwqDICUYIFpqBgRaayCfFiAWR2wWvoobmzxdF8N5kyxXmvap/sgGcLF/aoBosbG+lE395R8zCA4BqUYgOgYq+HtvBrT0LK15X8lZwx5f9klCX0rdgXzIIGbdhXMqZtHzJhuptEjmsFc4KzmN5IFPtfM7gWw2kPczSIqQSPUDYKYBMamsBCpKphW0iA5H8AbMDPJOQYjLZg1Vk4G49GlCYNYAkdOd0kwRQ8FCyAHydgLZ6Z2AqrVtjDUQ7hCEmrkEooDAsB2YnBCvkBpZ6yBvJpCd7Mn5zJ6C4QF2BUQPgHEIGUrGnHzQ8rlMekBeTyAzwDJksxwM4+w3BY02B8mIl0CmFRm+ZscxAuSnvwqQsECTIGSV6FEoJFTygVuzB5xAsKqBvAQE3+nkVoJDI1BJIaPBWik7ZSu5NIp5A3mRQaTFvLgkO9fVgEgMqqeVfb+p55tijWH+Kea71ubq4v8Sl8089sZKbKEZNq+VUfISJJF7j79WrbYgS994ZEf+nIz0pNFRWqapSmK6P45i3OQuItIiPDyg6RnxZ4D0g+CFPxAzluoRsWsaA6I6JOqVWCisDvJ0BgHTzMSRgMi0vmi8R+sR6tg/XUh7kCc7kMRqSNkTBDx0OkAUegFcMazciBXNpm798R6klXap/WZz49TQwBHqEcj4oCToUPjUuP9lfxcbyKMAwT6bTf1qqIIQDl3i5oCERNmVm0wgW4A8BGRxMX3hWh8bEV5Rvfp4DS5F3djWH2ztDNWKW7OBjgjIwsDWaKRknJjqMsh9QCa1p608lLovFkBE969DYtYelSzwSRcg535vAsFeNU9SzRCYZb4LDmxmFQKkwYGM+5y/G7b1uxMIylLdyE5yxIyYsoXWhQIpzQhYPi3JkJoKkB9+BxD0OMuyOEBe36DgyPSrxscmATldgKj8PxrkA/kA5PYMgkrocwIQ6GSRGmF0VaNqBKQZ5FYDEZSDzFTzq9mBQjAayE1A+ryDTzcQZe0Ibbxj7EwpAmTrJwEimZR9CCPtODhzxuNtY19Zd2Lf/fjCTnEiDAOg62j1utb/dv9mZ/aHCj4AyOHbsW3/As0BTzIgeJU7AAAAAElFTkSuQmCC);
+		cursor: crosshair;
+		float: left
+	}
+	
+	.colorpicker-saturation .colorpicker-guide {
+		display: block;
+		height: 5px;
+		width: 5px;
+		border: 1px solid #000;
+		border-radius: 5px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin: -4px 0 0 -4px
+	}
+	
+	.colorpicker-saturation .colorpicker-guide i {
+		display: block;
+		height: 5px;
+		width: 5px;
+		border: 1px solid #fff;
+		border-radius: 5px
+	}
+	
+	.colorpicker-alpha,
+	.colorpicker-hue {
+		width: 15px;
+		height: 100px;
+		float: left;
+		cursor: row-resize;
+		margin-left: 4px;
+		margin-bottom: 4px
+	}
+	
+	.colorpicker-alpha .colorpicker-guide,
+	.colorpicker-hue .colorpicker-guide {
+		display: block;
+		height: 1px;
+		background: #000;
+		border-top: 1px solid #fff;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		margin-top: -1px
+	}
+	
+	.colorpicker-hue {
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkCAMAAABw8qpSAAABLFBMVEXqFBb/ABH/ACL/ADH/AEH/AFD/AGD/AG7/AH7/AI3/AJ3/AKz/ALz/AMr/ANv/AOr/APr2AP/mAP/XAP/HAP+4AP+oAP+aAP+JAP97AP9rAP9cAP9MAP8+AP8tAP8fAP8PAP8BAv8AEP8AH/8AL/8APv8ATv8AXP8Abf8Ae/8Ai/8Amv8Aqv8AuP8Ayf8A1/8A5/8A9/8A//gA/+kA/9kA/8oA/7oA/6wA/5sA/40A/30A/24A/14A/1AA/z8A/zEA/yEA/xEB/wMN/wAd/wAs/wA8/wBK/wBb/wBp/wB5/wCI/wCY/wCm/wC3/wDF/wDV/wDk/wD1/wD/+gD/7AD/3AD/zAD/vgD/rQD/nwD/jgD/gAD/cAD/YgD/UQD/QwD/MgD/JAD/FAD4Eg42qAedAAAAh0lEQVR4XgXAg3EDAAAAwI9to7Zt27a1/w49BASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTS1tHXo1KVbj159+g0YNGTYiFFjxk2YNGXajFlz5i1YtGTZilVr1m3YtGXbjl179h04dOTYiVNnzl24dOXajVt37j149OTZi1dv3n349OXbj19//wOxE1dQ8reGAAAAAElFTkSuQmCC)
+	}
+	
+	.colorpicker-alpha {
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAABkCAQAAAAVxWkcAAABr0lEQVR4Xo2VwU0DQQxF7dmRuNIFlzlSAR3QAaXQQdIBJVABFXDcOVAAd67cjJLR07dkhcSrkZKfb/t7bG88rFo3B5gZPMNycItu2xloGV7MWHzM9zuzFWCkmA0nK6AszCUJDW6+mG6R03ncw5v8EMTEvZ2O3AliYjpslblc0RF9LmZYWxURU6aKytWZYsoWCAe+xwOZp1GsEukGiIkYxcQCHck99+gRgB7JncyIB5SGEhP3Yh5P6JwX+u6AnYot104d8DJT7uH7M9JH6OZbimj0vfMVaYnJIZFJDBW9kHlerL2C6JV4mSt7uuo2N57RxnZ+usQjn0R1jwBJBrNO3evJpVYUWsJ/E3UiXRlv24/7YZ04xmEdWlzcKS+B/eapeyMvFd2k0+hRk/T0AmTW8h69s2sjYMsdPntECiILhAeIMZAeH4QvUwfn6ijC0tTV+fT9ky8jM9nK2g7Ly1VjSpKYq6IvsAm7MtNu1orEqa/K3KNvgMFdhfquPfJmp2dbh0/8Gzb6Y22ViaNr6n5410zXdngVhbu6XqdOtWOuin5hjABGp4a2uotZ71MVCfwDBt2/v37yo6AAAAAASUVORK5CYII=);
+		display: none
+	}
+	
+	.colorpicker-alpha,
+	.colorpicker-hue,
+	.colorpicker-saturation {
+		background-size: contain
+	}
+	
+	.colorpicker {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		display: none;
+		float: left;
+		font-size: inherit;
+		color: inherit;
+		text-align: left;
+		list-style: none;
+		background-color: #fff;
+		background-clip: padding-box;
+		border: 1px solid rgba(0, 0, 0, .15);
+		-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+		box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+		padding: 4px;
+		min-width: 130px;
+		margin-top: 1px;
+		border-radius: 4px;
+		z-index: 1055
+	}
+	
+	.colorpicker:after,
+	.colorpicker:before {
+		display: table;
+		content: "";
+		line-height: 0
+	}
+	
+	.colorpicker:after {
+		clear: both
+	}
+	
+	.colorpicker:before {
+		content: '';
+		display: inline-block;
+		border-left: 7px solid transparent;
+		border-right: 7px solid transparent;
+		border-bottom: 7px solid #ccc;
+		border-bottom-color: rgba(0, 0, 0, .2);
+		position: absolute;
+		top: -7px;
+		left: 6px
+	}
+	
+	.colorpicker:after {
+		content: '';
+		display: inline-block;
+		border-left: 6px solid transparent;
+		border-right: 6px solid transparent;
+		border-bottom: 6px solid #fff;
+		position: absolute;
+		top: -6px;
+		left: 7px
+	}
+	
+	.colorpicker div {
+		position: relative
+	}
+	
+	.colorpicker.colorpicker-with-alpha {
+		min-width: 140px
+	}
+	
+	.colorpicker.colorpicker-with-alpha .colorpicker-alpha {
+		display: block
+	}
+	
+	.colorpicker-bar {
+		height: 15px;
+		margin: 5px 0 0 0;
+		clear: both;
+		text-align: center;
+		font-size: 10px;
+		line-height: normal
+	}
+	
+	.colorpicker-bar-horizontal {
+		height: 15px;
+		margin: 0 0 4px 0;
+		float: left;
+		width: 100px
+	}
+	
+	.colorpicker-element .add-on i,
+	.colorpicker-element .input-group-addon i {
+		display: inline-block;
+		cursor: pointer;
+		height: 16px;
+		vertical-align: text-top;
+		width: 16px
+	}
+	
+	.colorpicker.colorpicker-inline {
+		position: relative;
+		display: inline-block;
+		float: none;
+		z-index: auto;
+		vertical-align: text-bottom
+	}
+	
+	.colorpicker.colorpicker-horizontal {
+		width: 110px;
+		min-width: 110px;
+		height: auto
+	}
+	
+	.colorpicker.colorpicker-horizontal .colorpicker-saturation {
+		margin-bottom: 4px
+	}
+	
+	.colorpicker.colorpicker-horizontal .colorpicker-bar {
+		width: 100px
+	}
+	
+	.colorpicker.colorpicker-horizontal .colorpicker-alpha,
+	.colorpicker.colorpicker-horizontal .colorpicker-hue {
+		width: 100px;
+		height: 15px;
+		float: left;
+		cursor: col-resize;
+		margin-left: 0;
+		margin-bottom: 4px
+	}
+	
+	.colorpicker.colorpicker-horizontal .colorpicker-alpha .colorpicker-guide,
+	.colorpicker.colorpicker-horizontal .colorpicker-hue .colorpicker-guide {
+		display: block;
+		height: 15px;
+		background: #fff;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 1px;
+		border: none;
+		margin-top: 0
+	}
+	
+	.colorpicker.colorpicker-horizontal .colorpicker-hue {
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAMAAAAfBfuPAAABLFBMVEXqFBb/ABH/ACL/ADH/AEH/AFD/AGD/AG7/AH7/AI3/AJ3/AKz/ALz/AMr/ANv/AOr/APr2AP/mAP/XAP/HAP+4AP+oAP+aAP+JAP97AP9rAP9cAP9MAP8+AP8tAP8fAP8PAP8BAv8AEP8AH/8AL/8APv8ATv8AXP8Abf8Ae/8Ai/8Amv8Aqv8AuP8Ayf8A1/8A5/8A9/8A//gA/+kA/9kA/8oA/7oA/6wA/5sA/40A/30A/24A/14A/1AA/z8A/zEA/yEA/xEB/wMN/wAd/wAs/wA8/wBK/wBb/wBp/wB5/wCI/wCY/wCm/wC3/wDF/wDV/wDk/wD1/wD/+gD/7AD/3AD/zAD/vgD/rQD/nwD/jgD/gAD/cAD/YgD/UQD/QwD/MgD/JAD/FAD4Eg42qAedAAAAbUlEQVR4XgXAghEDsbxtlrZt27ax/w49ACAYQTGcICmaYTleECVZUTXdMC1Wm93hdLk9Xp8/EAyFI9FYPJFMpTPZXL5QLJUr1Vq90Wy1O91efzAcjSfT2XyxXK03293+cDydL9fb/fF8vT/f3x+LfRNXARMbCAAAAABJRU5ErkJggg==)
+	}
+	
+	.colorpicker.colorpicker-horizontal .colorpicker-alpha {
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAKCAQAAADoFTP1AAAB9ElEQVR4XoWTQW4VMRBEu9qWEimL7DhEMp8NF+ASnJJLcAQgE1bcgBUSkYKUuHCrZ9pjeqSU5Yn9LPu7umJQBIIv+k7vIOrtK66L4lmr3pVOrOv3otp619KZ0/KjdNI79L52Uo09FBQWrU0vfe5trezU+hLsoUKd3Repovte+0vbq/7Lj5XbaHECKasR9G4MPlbp+gzZxd6koPEJCkAYC5SjcOTAIIOK90Dja1IfIZ8Z+zAY9jm3b5Ia+MT5sFcqRJrR2AYYA8Kua5BzYRrFPNmD4PQMegGJMOffJJUsWiI3nCHZZjInNdffLWOufzbc3JaboCAVxwmnRHbhLSPwRJ4wU0BRSc6HkECYYVw95nMKgJOcylxrJttE5Ibzf9Xq9GPvP+WX3MiV/MGHfRu/SentRQrfG1GzsIrytdNXucSRKxQNIGHM9YhGFQJcdjNcBZvfJayuYe4Sia1CzwW+19mWOhe37HsxJWKwbu/jluEU15QzAQjAqCEbhMJc78GYV2E0kooHDubUImWkTOhGpgv8PoT8DJG/bzxna4BZ0eOFSOaLADGeSpFsg5AzeaDZIDQQXjZ4y/8ryfzUXBwdELRjTjCNvOeT0rNlrJz90vwy6N9pXXQEluX0inElpPWokSdiLCfiNJJjMKQ8Qsh8GEKQKMo/eiHrNbI9UksAAAAASUVORK5CYII=)
+	}
+	
+	.colorpicker-right:before {
+		left: auto;
+		right: 6px
+	}
+	
+	.colorpicker-right:after {
+		left: auto;
+		right: 7px
+	}
+	
+	.colorpicker-no-arrow:before {
+		border-right: 0;
+		border-left: 0
+	}
+	
+	.colorpicker-no-arrow:after {
+		border-right: 0;
+		border-left: 0
+	}
+	
+	.colorpicker-alpha.colorpicker-visible,
+	.colorpicker-bar.colorpicker-visible,
+	.colorpicker-hue.colorpicker-visible,
+	.colorpicker-saturation.colorpicker-visible,
+	.colorpicker.colorpicker-visible {
+		display: block
+	}
+	
+	.colorpicker-alpha.colorpicker-hidden,
+	.colorpicker-bar.colorpicker-hidden,
+	.colorpicker-hue.colorpicker-hidden,
+	.colorpicker-saturation.colorpicker-hidden,
+	.colorpicker.colorpicker-hidden {
+		display: none
+	}
+	
+	.colorpicker-inline.colorpicker-visible {
+		display: inline-block
+	}
+	
+	.colorpicker-preview {
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAABkCAQAAAAVxWkcAAABr0lEQVR4Xo2VwU0DQQxF7dmRuNIFlzlSAR3QAaXQQdIBJVABFXDcOVAAd67cjJLR07dkhcSrkZKfb/t7bG88rFo3B5gZPMNycItu2xloGV7MWHzM9zuzFWCkmA0nK6AszCUJDW6+mG6R03ncw5v8EMTEvZ2O3AliYjpslblc0RF9LmZYWxURU6aKytWZYsoWCAe+xwOZp1GsEukGiIkYxcQCHck99+gRgB7JncyIB5SGEhP3Yh5P6JwX+u6AnYot104d8DJT7uH7M9JH6OZbimj0vfMVaYnJIZFJDBW9kHlerL2C6JV4mSt7uuo2N57RxnZ+usQjn0R1jwBJBrNO3evJpVYUWsJ/E3UiXRlv24/7YZ04xmEdWlzcKS+B/eapeyMvFd2k0+hRk/T0AmTW8h69s2sjYMsdPntECiILhAeIMZAeH4QvUwfn6ijC0tTV+fT9ky8jM9nK2g7Ly1VjSpKYq6IvsAm7MtNu1orEqa/K3KNvgMFdhfquPfJmp2dbh0/8Gzb6Y22ViaNr6n5410zXdngVhbu6XqdOtWOuin5hjABGp4a2uotZ71MVCfwDBt2/v37yo6AAAAAASUVORK5CYII=);
+		background-position: 0 100%
+	}
+	
+	.colorpicker-preview div {
+		position: relative;
+		width: 100%;
+		height: 100%
+	}
+	
+	.colorpicker-swatch {
+		cursor: pointer;
+		float: left;
+		height: 12px;
+		width: 12px
+	}
+	
+	.colorpicker-swatch+.colorpicker-swatch {
+		margin-left: 2px
+	}
+	/*# sourceMappingURL=bootstrap-colorpicker.min.css.map */
+	/* Option-Box*/
+	
+	:root {
+		--gradient-direction: to right;
+		--color-gradient: linear-gradient(var(--gradient-direction), var(--color-main), var(--color-secondary));
+	}
+	
+	#option-box *,
+	#style-modal * {
+		direction: ltr;
+	}
+	
+	#option-box,
+	#style-modal {
+		padding-left: 0;
+	}
+	
+	#option-box {
+		position: fixed;
+		z-index: 980;
+		top: 0px;
+		left: -100%;
+		transition: all .5s ease;
+		-webkit-transition: all .5s ease;
+		-moz-transition: all .5s ease;
+		height: 100%;
+		overflow: visible;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-flow: row-reverse;
+	}
+	
+	#option-box .box {
+		background: #fff;
+		padding: 30px;
+		width: 390px;
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 5px 0 rgba(0, 0, 0, .23);
+		-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 5px 0 rgba(0, 0, 0, .23);
+		-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 5px 0 rgba(0, 0, 0, .23);
+		position: relative;
+	}
+	
+	#option-box.show {
+		left: 0;
+	}
+	
+	#toggle-box {
+		background: #7c7c7c;
+		color: #fff;
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 5px 0 rgba(0, 0, 0, .23);
+		-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 5px 0 rgba(0, 0, 0, .23);
+		-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 5px 0 rgba(0, 0, 0, .23);
+		cursor: pointer;
+		border-top-right-radius: 30%;
+		border-bottom-right-radius: 30%;
+		opacity: .95;
+		padding: 8px 9px;
+		width: 40px;
+		position: fixed;
+		left: 0;
+		top: 180px;
+		z-index: 905;
+		height: 40px;
+		display: block;
+		margin: auto;
+	}
+	
+	#toggle-box p {
+		margin-bottom: 0;
+	}
+	
+	#close-box {
+		position: absolute;
+		top: 9px;
+		right: 20px;
+	}
+	
+	#style-modal .modal-body {
+		background: #fff;
+		padding: 20px;
+	}
+	
+	.box li * {
+		font-size: 13px;
+		font-weight: 500;
+	}
+	
+	.box .btn {
+		font-size: 13px;
+	}
+	
+	.color-preview {
+		border: 0;
+	}
+	
+	.color-picker,
+	select {
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+	
+	.colorpicker *,
+	.colorpicker {
+		transition: none !important;
+	}
+	
+	div#style-modal p,
+	div#style-modal ul {
+		color: #4e4e4e;
+	}
+	
+	@media(min-width:1281px) {
+		#toggle-box:hover {
+			width: 50px;
+			padding: 8px 13px;
+		}
+	}
+	
+	@media(max-width:700px) {
+		#option-box .box {
+			width: 100%;
+			padding: 25px 18px;
+		}
+		#option-box:not(.show) {
+			left: -140%;
+		}
+		#toggle-box {
+			padding: 8px 9px;
+			width: 40px;
+		}
+	}
+	</style>
+	<!-- / Get Style-->
+	<div class="modal fade " id="style-modal" role="dialog" tabindex="-1">
+		<div class="modal-dialog modal-dialog-centered " role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button class="close" data-dismiss="modal" type="button" aria-label="Close"><span aria-hidden="true">&times;   </span></button>
+					<h5>Selected colors</h5>
+					<p> <span class="gradient-text">HTML Version :</span><b> main.css File</b></p>
+					<ul class="css-code list-unstyled">
+						<li><span>--color-main :</span><span class="color-main-code"></span></li>
+						<li><span>--color-secondary :</span><span class="color-secondary-code"></span></li>
+						<li><span>--color-gradient :</span><span class="color-gradient-code"></span></li>
+					</ul>
+					<p> <span class="gradient-text">Gulp Version : </span><b>variables.scss File</b></p>
+					<ul class="scss-code list-unstyled">
+						<li><span>$color-main :</span><span class="color-main-code"></span></li>
+						<li><span>$color-secondary :</span><span class="color-secondary-code"></span></li>
+						<li><span>$color-gradient :</span><span class="color-gradient-code"></span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="toggle-box">
+		<p><i class="fas fa-paint-brush"></i></p>
+	</div>
+	<div id="option-box" dir="ltr">
+		<!-- Color Option-->
+		<div class="box">
+			<div id="close-box">
+				<button class="close" type="button" aria-label="Close"><span aria-hidden="true">&times; </span></button>
+			</div>
+			<h5 class="flow-text">Choose Color </h5>
+			<ul class="list-unstyled">
+				<li id="main-color-select">
+					<div class="input-group mb-3">
+						<div class="input-group-prepend"><span class="input-group-text">Main Color</span><span class="input-group-text color-preview" style="background-color:#dd3e54"></span></div>
+						<input class="form-control color-picker" type="text" aria-label="select colors " value="#dd3e54">
+					</div>
+				</li>
+				<li id="secondary-color-select">
+					<div class="input-group mb-3">
+						<div class="input-group-prepend"><span class="input-group-text">secondary Color</span><span class="input-group-text color-preview" style="background-color:#e100ff"></span></div>
+						<input class="form-control color-picker" type="text" aria-label="select colors " value="#e100ff">
+					</div>
+				</li>
+				<li id="gradient-direction">
+					<div class="input-group mb-3">
+						<div class="input-group-prepend"><span class="input-group-text">Gradient Direction</span></div>
+						<select class="form-control">
+							<option selected value="right">right</option>
+							<option value="left">left</option>
+							<option value="top">top</option>
+							<option value="bottom">bottom</option>
+							<option value="degree">degree </option>
+						</select>
+					</div>
+					<div class="input-group mb-3 degree-form" style="display:none">
+						<input class="form-control degree" type="number" aria-label="select colors " value="180">
+						<div class="input-group-append"><span class="input-group-text">deg</span></div>
+					</div>
+				</li>
+			</ul><a class="btn-black btn center" id="get-style" href="#style-modal">Get The Style</a></div>
+	</div>
+	<!-- / Image Modal -->
+	<script>
+	(function() {
+		var colorCode = '';
+		var colorMain = $("#main-color-select").find(".color-picker").val();
+		var colorSecondary = $("#secondary-color-select").find(".color-picker").val();
+		var gradientDirection = "to " + $("#gradient-direction select").find(":selected").val();
+		var gradientDegree = $(".degree").val();
+		$('.color-picker').colorpicker();
+		$("#get-style").on('click', function() {
+			$(".color-main-code ").text(colorMain);
+			$(".color-secondary-code").text(colorSecondary);
+			$(".color-gradient-code").text("linear-gradient(" + gradientDirection + ", " + colorMain + ", " + colorSecondary + ")");
+			$('#style-modal').modal();
+		});
+		$("#toggle-box").on('click', function() {
+			$("#option-box").toggleClass("show");
+		});
+		$("#main-color-select .color-picker").on('change', function() {
+			colorCode = $(this).val();
+			$("#main-color-select .color-preview").css("background-color", colorCode);
+			colorMain = colorCode;
+			$(":root").css('--color-main', colorMain); //set
+		});
+		$("#secondary-color-select .color-picker").on('change', function() {
+			colorCode = $(this).val();
+			$("#secondary-color-select .color-preview").css("background-color", colorCode);
+			colorSecondary = colorCode;
+			$(":root").css('--color-secondary', colorSecondary); //set
+		});
+		$("#gradient-direction select").on("change", function() {
+			var selected = $(this).find(":selected").val();
+			if(selected == "degree") {
+				gradientDegree = $(".degree").val();
+				gradientDirection = gradientDegree + "deg";
+				$(":root").css('--gradient-direction', gradientDirection); //set
+				$(".degree-form").slideDown();
+			} else {
+				gradientDirection = "to " + selected;
+				$(".degree-form").slideUp();
+				$(":root").css('--gradient-direction', gradientDirection); //set
+			}
+		});
+		$("#gradient-direction .degree").on('change', function() {
+			gradientDegree = $(".degree").val();
+			gradientDirection = gradientDegree + "deg";
+			$(":root").css('--gradient-direction', gradientDirection); //set
+		});
+		$("#close-box").on('click', function() {
+			$("#option-box").removeClass("show");
+		});
+	})();
+	</script>
+
+</body>
+<!-- Mirrored from norhan-mohammed.com/demos/Kari Grocery/ltr/default-demos/solid-demo/index-style2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Nov 2020 07:29:10 GMT -->
+
+</html>
